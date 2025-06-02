@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	double num1, num2, num3, NM;
+	double num1, num2, num3, NumeroMayor;
 	cout<<"Ingrese el primer numero"<<endl;
 	cin>>num1;
 	cout<<"Ingrese el segundo numero"<<endl;
@@ -11,13 +11,13 @@ int main(){
 	cout<<"Ingrese el tercer numero"<<endl;
 	cin>>num3;
 	if (num1>num2){
-		NM=num1;
+		NumeroMayor=num1;
 	} else {
-		NM=num2;
+		NumeroMayor=num2;
 	}
-	if (num3>NM){
-		NM=num3;
+	if (num3>NumeroMayor){
+		NumeroMayor=num3;
 	}
-	cout<<"El numero mayor es: "<<NM;
+	cout<<"El numero mayor es: "<<NumeroMayor;
 	return 0;
 }
