@@ -1,4 +1,4 @@
-//Algoritmo Calcular el presupuesto que recibira cada area del hospital
+//Algoritmo Calcular el presupuesto que recibira cada area del hospital
 #include <iostream>
 using namespace std;
 int main (){
@@ -13,10 +13,14 @@ int main (){
 	//Proceso
 	PROM = (C1+C2+C3)/3;
 	if(PROM >= 70){
+		
 		cout<<"APROBADO"<< endl;
+		cout<<"con "<< PROM <<endl;
 	}
 	else
 	{
+		
 		cout<<"DESAPROBO"<< endl;
+		cout<<"con "<< PROM <<endl;
 }
 	}
