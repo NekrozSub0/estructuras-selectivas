@@ -4,9 +4,9 @@ using namespace std;
 int main (){
 	float NUMCAMI,PRECAMI,PAGOF;
 	//Entrada
-	cout<<Ingrese la cantidad de camisas: <<endl;
+	cout<<"Ingrese la cantidad de camisas: "<<endl;
 	cin>>NUMCAMI;
-	cout<<Ingrese el precio por camisa: <<endl;
+	cout<<"Ingrese el precio por camisa: "<<endl;
 	cin>>PRECAMI;
 	//Proceso
 	PAGOF=NUMCAMI*PRECAMI;
@@ -18,5 +18,5 @@ int main (){
 		PAGOF=PAGOF-(PAGOF*0.1);
 }
 	//Salida
-	cout<<El pago final por <<NUMCAMI<< camisas es: <<PAGOF<<endl;
+	cout<<"El pago final por "<<NUMCAMI<<" camisas es: "<<PAGOF<<endl;
 	}
