@@ -3,13 +3,16 @@
 using namespace std;
 
 int main(){
+	//Declaración de variables
 	double num1, num2, num3, NumeroMayor;
+	//Entradas
 	cout<<"Ingrese el primer numero"<<endl;
 	cin>>num1;
 	cout<<"Ingrese el segundo numero"<<endl;
 	cin>>num2;
 	cout<<"Ingrese el tercer numero"<<endl;
 	cin>>num3;
+	//Proceso
 	if (num1>num2){
 		NumeroMayor=num1;
 	} else {
@@ -18,6 +21,7 @@ int main(){
 	if (num3>NumeroMayor){
 		NumeroMayor=num3;
 	}
+	//Salida
 	cout<<"El numero mayor es: "<<NumeroMayor;
 	return 0;
 }

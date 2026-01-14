@@ -10,7 +10,7 @@ int main (){
 	cin>>C2;
 	cout<<"Ingrese la tercera calificaicon: "<<endl;
 	cin>>C3;
-	//Proceso
+	//Proceso y Salida
 	PROM = (C1+C2+C3)/3;
 	if(PROM >= 70){
 		cout<<"APROBADO"<< endl;
