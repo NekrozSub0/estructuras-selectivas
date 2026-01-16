@@ -13,13 +13,9 @@ int main (){
 	//Proceso y Salida
 	PROM = (C1+C2+C3)/3;
 	if(PROM >= 70){
-		
 		cout<<"APROBADO"<< endl;
 		cout<<"con "<< PROM <<endl;
-	}
-	else
-	{
-		
+	}else{
 		cout<<"DESAPROBO"<< endl;
 		cout<<"con "<< PROM <<endl;
 }
