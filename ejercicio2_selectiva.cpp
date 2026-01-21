@@ -4,7 +4,7 @@ using namespace std;
 int main (){
 	float COMPRA,PAGOF;
 	//Entrada
-	cout<<Ingrese el valor de la compra: <<endl;
+	cout<<"Ingrese el valor de la compra: "<<endl;
 	cin>>COMPRA;
 	//Proceso
 	if(COMPRA > 1000){
@@ -15,5 +15,5 @@ int main (){
 		PAGOF = COMPRA;
 }
 	//Salida
-	cout<<El pago final es: <<PAGOF<<endl;
+	cout<<"El pago final es: "<<PAGOF<<endl;
 	}
